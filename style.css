@@ -1,18 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0BA5CB;
-  font-family: sans-serif;
-}
-
-#border1 {
+/* #border1 {
   width: 95%;
   height:100%;
   background-position: center center;
@@ -21,4 +7,19 @@ body {
   background-color: #07359A;
   box-shadow:
     0 0 20px #2AADFF, 0 0 40px #2AADFF, 0 0 80px #2AADFF, 0 0 160px #2AADFF;
-}
+} */
+
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0BA5CB;
+  }
+
+  #border1 {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+  }
