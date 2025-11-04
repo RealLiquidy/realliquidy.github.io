@@ -7,7 +7,7 @@ body {
   overflow: hidden;
 }
 
-.rain-overlay {
+#rain-overlay {
   position: fixed;
   top: 0;
   left: 0;
