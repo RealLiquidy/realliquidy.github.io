@@ -15,17 +15,18 @@ body {
 }
 
 #border1 {
-  width: 90vw;
-  height: 90vh;
+  border-radius: 15px;
+  box-sizing: border-box;
+  max-width: 500px;
+  padding: 25px;
+  width: 100%;
   border: 2px solid #2AADFF;
-  border-radius: 25px;
   background-color: #07359A;
   box-shadow:
     0 0 10px #2AADFF,
     0 0 20px #2AADFF,
     0 0 40px #2AADFF,
     0 0 80px #2AADFF;
-  margin-bottom: 20px;
 }
 
 h1 {
