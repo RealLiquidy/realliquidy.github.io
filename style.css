@@ -19,6 +19,7 @@
   }
 
   #border1 {
+    padding:2rem;
     width: 60vw;
     background-color: lightblue;
   }
