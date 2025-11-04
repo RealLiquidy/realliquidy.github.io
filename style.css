@@ -1,21 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   height: 100vh;
   background-color: #0BA5CB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 #border1 {
-  border-radius: 25px;
-  border:2px solid #2AADFF;
-  background-color: #07359A;
-  margin: auto;
   width: 200px;
   height: 150px;
+  border: 2px solid #2AADFF;
+  border-radius: 25px;
+  background-color: #07359A;
   box-shadow:
     0 0 10px #2AADFF,
     0 0 20px #2AADFF,
     0 0 40px #2AADFF,
     0 0 80px #2AADFF;
+  margin-bottom: 20px;
+}
 
+h1 {
+  color: white;
 }
