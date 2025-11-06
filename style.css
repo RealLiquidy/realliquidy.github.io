@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /*background-color: #0BA5CB;*/
+  background: linear-gradient(180deg, #0B3A5A 0%, #021028 100%)
 }
 
 #border1 {
