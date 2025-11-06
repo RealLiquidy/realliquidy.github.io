@@ -6,6 +6,10 @@ body {
   background-color: #0BA5CB;
 }
 
+#rainOverlay {
+  opacity: .1;
+  background-image: url(/assets/rain.gif);
+
 #border1 {
   padding:10rem;
   width: 60vw;
