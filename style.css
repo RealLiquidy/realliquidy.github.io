@@ -13,15 +13,15 @@ body {
   border: 4px solid #2AADFF;
   border-radius: 25px;
   background-color: #07359A;
-  box-shadow: 0 0 20px #2AADFF, 0 0 40px #2AADFF, 0 0 80px #2AADFF, 0 0 160px #2AADFF;
-  animation: pulseGlow 2s infinite ease-in-out;
+  box-shadow: 0 0 20px #2AADFF, 0 0 40px #49CFFF, 0 0 80px #7AE0FF, 0 0 160px #B6F3FF, 0 0 320px #E0FFFF;
+  animation: neonPulse 2.5s infinite ease-in-out;
 }
 
-@keyframes pulseGlow {
+@keyframes neonPulse {
   0%, 100% {
-    box-shadow: 0 0 20px #2AADFF, 0 0 40px #2AADFF, 0 0 80px #2AADFF, 0 0 160px #2AADFF;
+    box-shadow: 0 0 20px #2AADFF, 0 0 40px #49CFFF, 0 0 80px #7AE0FF, 0 0 160px #B6F3FF, 0 0 320px #E0FFFF;
   }
   50% {
-    box-shadow: 0 0 10px #2AADFF, 0 0 20px #2AADFF, 0 0 40px #2AADFF, 0 0 80px #2AADFF;
+    box-shadow: 0 0 10px #2AADFF, 0 0 20px #49CFFF, 0 0 40px #7AE0FF, 0 0 80px #B6F3FF, 0 0 160px #E0FFFF;
   }
 }
