@@ -22,16 +22,16 @@ body {
     box-shadow: 
       0 0 40px #2AADFF, 
       0 0 80px #49CFFF, 
-      0 0 160px #7AE0FF, 
-      0 0 320px #B6F3FF, 
-      0 0 640px #E0FFFF;
+      0 0 160px #2AB0FF, 
+      0 0 320px #1F8FFF, 
+      0 0 640px #0B5F99;
   }
   50% {
     box-shadow: 
       0 0 10px #2AADFF, 
       0 0 20px #49CFFF, 
-      0 0 40px #7AE0FF, 
-      0 0 80px #B6F3FF, 
-      0 0 160px #E0FFFF;
+      0 0 40px #2AB0FF, 
+      0 0 80px #1F8FFF, 
+      0 0 160px #0B5F99;
   }
 }
