@@ -14,7 +14,8 @@ body {
   width: 60vw;
   border: 2px solid #2AADFF;
   border-radius: 25px;
-  background-color: #1D6796;
+  background-color: #0F3B57;
+  opacity: .5;
   animation: neonPulse 2s infinite ease-in-out;
 }
 
