@@ -6,7 +6,7 @@ body {
   /*background-color: #0BA5CB;*/
 }
 
-#rainOverlay {
+.rainOverlay {
   opacity: .1;
   background-image: url(/assets/rain.gif);
 }
