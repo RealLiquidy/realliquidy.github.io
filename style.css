@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
   height: 100vh;
   background: linear-gradient(180deg, #0B3A5A 0%, #021028 100%);
 }
