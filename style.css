@@ -7,8 +7,7 @@ body {
   overflow: hidden;
   background: linear-gradient(180deg, #0A52CC 0%, #0841A2 100%);
   font-family: 'Shadows Into Light', cursive;
-  color: 0E89D5 !important;
-  -webkit-font-smoothing: antialiased;
+  color: #0E89D5;
 }
 
 #border1 {
