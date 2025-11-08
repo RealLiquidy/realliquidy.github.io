@@ -19,11 +19,6 @@ body {
   border: 2px solid #2AADFF;
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.5);
-  text-shadow: 
-    0 0 5px #2AADFF,
-    0 0 10px #2AADFF, 
-    0 0 15px #49CFFF,
-    0 0 20px #49CFFF;
   animation: neonPulse 2s infinite ease-in-out;
 }
 
@@ -46,3 +41,11 @@ body {
   }
 }
 
+h1 {
+  font-size: 40px;
+  text-shadow: 
+    0 0 5px #2AADFF,
+    0 0 10px #2AADFF, 
+    0 0 15px #49CFFF,
+    0 0 20px #49CFFF;
+}
