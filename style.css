@@ -6,6 +6,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background: linear-gradient(180deg, #0A52CC 0%, #0841A2 100%);
+  font-family: 'Caveat Brush', cursive;
 }
 
 #border1 {
