@@ -49,5 +49,18 @@
   <div id="duckContainer">
     <img src="https://i.pinimg.com/originals/7f/ae/97/7fae97b0d62464f833f75a7cce0a9902.gif" alt="Duck" id="duck">
   </div>
+  <script>
+  const duck = document.getElementById("duckContainer");
+  const stepDuration = 0.46;
+  const strideLength = 30;
+  function setDuckSpeed() {
+    const distance = window.innerWidth + 300;
+    const stepsNeeded = distance / strideLength;
+    const duration = stepsNeeded * stepDuration;
+    duck.style.animationDuration = `${duration}s`;
+  }
+  window.addEventListener("resize", setDuckSpeed);
+  setDuckSpeed();
+</script>
 </body>
 </html>
