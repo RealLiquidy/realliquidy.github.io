@@ -6,7 +6,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: url("/assets/background.png") center center / cover no-repeat;
+  background: url("/assets/name.png") center center / cover no-repeat;
   font-family: "Caveat Brush", cursive;
   font-weight: 400;
   font-style: normal;
