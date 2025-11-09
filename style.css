@@ -17,7 +17,7 @@ body {
 #overlay {
   position: fixed;
   inset: 0;
-  background: url("https://i.pinimg.com/originals/e4/25/d3/e425d3861a7d09173b6f31faefd4460a.gif") center center / cover no-repeat;
+  background: src="/assets/overlayBackground.gif" center center / cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
