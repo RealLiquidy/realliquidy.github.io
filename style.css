@@ -38,7 +38,7 @@ body {
   50% { opacity: 0.5; }
 }
 
-rainOverlay {
+#rainOverlay {
   position: fixed;
   top: 0;
   left: 0;
