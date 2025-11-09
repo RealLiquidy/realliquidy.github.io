@@ -142,9 +142,11 @@ footer {
   bottom: 0;
   left: -100px;
   z-index: 9998;
-  animation-name: walk, bob;
-  animation-timing-function: linear, ease-in-out;
-  animation-iteration-count: infinite, infinite;
+  animation: walk linear infinite;
+}
+
+#duckWrapper {
+  animation: bob 0.46s ease-in-out infinite;
 }
 
 #duck {
