@@ -146,18 +146,30 @@ footer {
 }
 
 #duck {
-  width: 50px;
+  width: 100px;
   height: auto;
+  transition: transform 0.5s ease;
 }
 
-@keyframes walk {
+@keyframes walkAcross {
   0% {
-    left: -100px;
+    left: -150px;
+    transform: scaleX(1);
+  }
+  49% {
+    left: calc(100vw + 150px);
+    transform: scaleX(1);
   }
   50% {
-    left: 100vw;
+    left: calc(100vw + 150px);
+    transform: scaleX(-1);
+  }
+  99% {
+    left: -150px;
+    transform: scaleX(-1);
   }
   100% {
-    left: -100px;
+    left: -150px;
+    transform: scaleX(1);
   }
 }
