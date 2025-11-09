@@ -72,7 +72,7 @@ body {
   position: relative;
   width: 150px;
   height: 150px;
-  margin: 0 auto 2rem auto; /* centers it and adds space below */
+  margin: 0 auto 2rem auto;
 }
 
 #pfp,
@@ -87,7 +87,6 @@ body {
 }
 
 #pfp {
-  border: 3px solid #2AADFF;
   z-index: 1;
 }
 
