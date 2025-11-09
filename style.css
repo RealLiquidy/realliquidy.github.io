@@ -142,9 +142,9 @@ footer {
   bottom: 0;
   left: -100px;
   z-index: 9998;
-  animation-name: walk;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation-name: walk, bob;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
 }
 
 #duck {
@@ -156,4 +156,9 @@ footer {
 @keyframes walk {
   from { transform: translateX(-150px); opacity: 1; }
   to   { transform: translateX(calc(100vw + 150px)); opacity: 1; }
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-4px); } /* adjust amplitude */
 }
