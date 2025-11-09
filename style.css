@@ -28,6 +28,7 @@ body {
 }
 
 #overlayText {
+  text-align: center;
   text-shadow: 0 0 10px #2AADFF, 0 0 20px #49CFFF;
   animation: pulseText 1.5s infinite ease-in-out;
 }
