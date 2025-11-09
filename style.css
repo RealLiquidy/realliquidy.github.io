@@ -150,9 +150,10 @@ footer {
 }
 
 #duck {
+  position: absolute;
+  bottom: 0;
   width: 70px;
   height: auto;
-  bottom: 0;
   display: block;
 }
 
