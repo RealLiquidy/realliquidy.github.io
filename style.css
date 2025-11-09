@@ -136,3 +136,28 @@ footer {
 #sourceCode:hover {
   color: #1E72A7;
 }
+
+#duckContainer {
+  position: fixed;
+  bottom: 0;
+  left: -100px;
+  z-index: 9998;
+  animation: walk 5s linear infinite;
+}
+
+#duck {
+  width: 50px;
+  height: auto;
+}
+
+@keyframes walk {
+  0% {
+    left: -100px;
+  }
+  50% {
+    left: 100vw;
+  }
+  100% {
+    left: -100px;
+  }
+}
