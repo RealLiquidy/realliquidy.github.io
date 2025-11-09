@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+}
 
 body {
   display: flex;
@@ -44,7 +45,7 @@ body {
 #container {
   text-align: center;
   padding: 10rem;
-  width: 300px;
+  width: 15rem;
   height: auto;
   border: 2px solid #2AADFF;
   border-radius: 25px;
