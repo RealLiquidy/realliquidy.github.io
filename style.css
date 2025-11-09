@@ -139,10 +139,10 @@ footer {
 
 #duckContainer {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   left: -100px;
   z-index: 9998;
-  animation: walk 12s linear infinite;
+  animation: walk 15s linear infinite;
 }
 
 #duck {
@@ -153,11 +153,22 @@ footer {
 @keyframes walk {
   0% {
     left: -150px;
+    opacity: 1; /* visible */
+  }
+  70% {
+    left: 100vw; /* walk off screen right */
+    opacity: 1;
+  }
+  80% {
+    left: 110vw; /* completely off-screen */
+    opacity: 0; /* fade out */
   }
   90% {
-    left: 100vw;
+    left: -150px; /* jump back to left (invisible) */
+    opacity: 0;
   }
   100% {
     left: -150px;
+    opacity: 1; /* fade back in */
   }
 }
