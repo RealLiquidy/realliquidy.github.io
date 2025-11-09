@@ -11,13 +11,13 @@
   <link rel="icon" type="image/png" href="/assets/favicon.png">
 </head>
 <body>
-  <div id="overlay">
-    <div id="overlay-text">click anywhere pls 🥺</div>
+  <div id="clickOverlay">
+    <div id="overlayText">click anywhere pls 🥺</div>
   </div>
   <script>
     const audio = new Audio('https://github.com/RealLiquidy/realliquidy.github.io/raw/refs/heads/main/assets/binksSake.mp3');
     audio.loop = true;
-    document.getElementById("overlay").addEventListener("click", function () {
+    document.getElementById("clickOverlay").addEventListener("click", function () {
       audio.play();
       this.style.opacity = "0";
       setTimeout(() => {
@@ -25,6 +25,7 @@
       }, 1000);
     });
   </script>
+  <div id="rainOverlay"></div>
   <div id="container">
     <div id="profileWrapper">
       <img src="/assets/pfp.png" alt="Profile Picture" id="pfp">
