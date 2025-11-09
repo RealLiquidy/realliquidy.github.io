@@ -14,7 +14,7 @@ body {
   color: #0E679E;
 }
 
-#overlay {
+#clickOverlay {
   position: fixed;
   inset: 0;
   background: url("/assets/overlayBackground.gif") center center / cover no-repeat;
@@ -28,7 +28,7 @@ body {
   transition: opacity 1s ease;
 }
 
-#overlay-text {
+#overlayText {
   text-shadow: 0 0 10px #2AADFF, 0 0 20px #49CFFF;
   animation: pulseText 1.5s infinite ease-in-out;
 }
