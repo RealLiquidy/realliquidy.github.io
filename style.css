@@ -95,6 +95,7 @@ body {
 
 #decoration {
   z-index: 2;
+  object-fit: contain;
 }
 
 h1 {
