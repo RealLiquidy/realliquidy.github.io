@@ -39,6 +39,7 @@ body {
 }
 
 #container {
+  padding-bottom: 10px;
   text-align: center;
   width: 15rem;
   height: auto;
