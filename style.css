@@ -124,3 +124,6 @@ h1 {
   filter: drop-shadow(0 0 8px rgba(42, 170, 255, 1)) drop-shadow(0 0 15px rgba(42, 170, 255, 0.8));
 }
   
+footer {
+  color: black;
+}
