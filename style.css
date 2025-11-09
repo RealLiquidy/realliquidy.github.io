@@ -6,7 +6,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: url("https://www.bing.com/th/id/OGC.60c9136a34d450fb66ec3ccca4e946f7?o=7&cb=ucfimgc2&pid=1.7&rm=3&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2fdb%2f5f%2f1c%2fdb5f1c5eae436fa4d310e782416592a1.gif&ehk=EQXV2W3laY1pmHOvpFikrmBu%2bVdAJmicbsRDsXi7NRU%3d") center center / cover no-repeat;
+  background: url("/assets/wallpaper.gif") center center / cover no-repeat;
   font-family: "Caveat Brush", cursive;
   font-weight: 400;
   font-style: normal;
