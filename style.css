@@ -139,36 +139,38 @@ footer {
 
 #duckContainer {
   position: fixed;
+  width: 70px;
+  height:70px;
   bottom: 0px;
   left: -100px;
   z-index: 9998;
-  animation: walk 15s linear infinite;
+  animation: walk 18s linear infinite;
 }
 
 #duck {
-  width: 100px;
+  width: 70px;
   height: auto;
 }
 
 @keyframes walk {
   0% {
     left: -150px;
-    opacity: 1; /* visible */
+    opacity: 1;
   }
   70% {
-    left: 100vw; /* walk off screen right */
+    left: 100vw;
     opacity: 1;
   }
   80% {
-    left: 110vw; /* completely off-screen */
-    opacity: 0; /* fade out */
+    left: 110vw;
+    opacity: 0;
   }
   90% {
-    left: -150px; /* jump back to left (invisible) */
+    left: -150px;
     opacity: 0;
   }
   100% {
     left: -150px;
-    opacity: 1; /* fade back in */
+    opacity: 1;
   }
 }
