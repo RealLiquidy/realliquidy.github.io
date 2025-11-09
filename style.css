@@ -73,6 +73,8 @@ body {
   width: 150px;
   height: 150px;
   margin: 0 auto 2rem auto;
+  transform: scale(0.6);
+  transform-origin: center;
 }
 
 #pfp {
