@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
+  width: 100vh;
   height: 100vh;
   overflow: hidden;
   background: url("https://i.pinimg.com/originals/58/e0/26/58e026ae8d73568ba950082b3690d0dd.gif") center center / cover no-repeat;
