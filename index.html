@@ -65,10 +65,11 @@
   window.addEventListener("resize", setDuckSpeed);
   setDuckSpeed();
 </script>
-<script src="https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/12.4.0/firebase-database.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
+  import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-database.js";
+
+  document.addEventListener("DOMContentLoaded", function () {
     const firebaseConfig = {
       apiKey: "AIzaSyBJqXxfmbNX5FyZtsJUteeXzBaQLm0CZRs",
       authDomain: "view-count-18e36.firebaseapp.com",
@@ -78,21 +79,21 @@
       messagingSenderId: "66588519229",
       appId: "1:66588519229:web:3395b03af78502e5dcb354",
     };
-      
-    const app = firebase.initializeApp(firebaseConfig);
-    const database = firebase.database(app);
+
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
 
     if (!localStorage.getItem('hasVisited')) {
-      const viewsRef = database.ref('viewCount');
-      viewsRef.transaction((currentViews) => {
+      const viewsRef = ref(database, 'viewCount');
+      runTransaction(viewsRef, (currentViews) => {
         return (currentViews || 0) + 1;
       });
       localStorage.setItem('hasVisited', 'true');
     }
 
     const viewCountDisplay = document.getElementById('viewCount');
-    const viewsRef = database.ref('viewCount');
-    viewsRef.on('value', (snapshot) => {
+    const viewsRef = ref(database, 'viewCount');
+    onValue(viewsRef, (snapshot) => {
       const viewCount = snapshot.val();
       if (viewCountDisplay) {
         viewCountDisplay.textContent = `Views: ${viewCount}`;
