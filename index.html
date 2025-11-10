@@ -32,6 +32,21 @@
     </div>
     <h1>Liquidy</h1>
     <hr>
+    <div id="ageDisplay">Loading age...</div>
+    <script>
+    function calculateAge(birthDate) {
+      const today = new Date();
+      const birthDateObj = new Date(birthDate);
+      let age = today.getFullYear() - birthDateObj.getFullYear();
+      const monthDifference = today.getMonth() - birthDateObj.getMonth();
+      if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDateObj.getDate())) {
+        age--;
+      }
+      return age;
+    }
+    const birthDate = '2011-04-01';
+      document.getElementById('ageDisplay').textContent = `${calculateAge(birthDate)}yr`;
+    </script>
     <br><br>
     <div id="iconsWrapper">
       <a href="https://discord.com/users/888198655272701993" target="_blank" id="discordIcon" class="icon">
