@@ -118,6 +118,10 @@ hr {
   margin: 20px auto;
 }
 
+#info {
+  display: block;
+}
+
 #iconsWrapper {
   display: flex;
   justify-content: center;
