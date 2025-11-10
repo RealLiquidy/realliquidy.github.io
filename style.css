@@ -120,7 +120,16 @@ hr {
 }
 
 #info {
-  color: black;
+  font-size: 25px;
+  text-shadow: 
+    0 0 5px #2AADFF,
+    0 0 10px #2AADFF, 
+    0 0 15px #49CFFF,
+    0 0 20px #49CFFF;
+}
+
+p {
+  font-size: 15px;
 }
 
 #iconsWrapper {
