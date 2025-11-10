@@ -107,6 +107,14 @@ h1 {
     0 0 20px #49CFFF;
 }
 
+hr {
+  border: none;
+  height: 2px;
+  background-color: #2AADFF;
+  width: 50%;
+  margin: 20px auto;
+}
+
 .icon {
   display: inline-block;
 }
