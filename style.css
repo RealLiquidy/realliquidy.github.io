@@ -112,15 +112,16 @@ h1 {
 }
 
 hr {
-  border: none;
-  height: 2px;
-  background-color: #2AADFF;
+  border: 2px solid #2AADFF;
+  border-radius: 10px;
+  height: 0px;
+  background-color: transparent;=
   width: 50%;
   margin: 20px auto;
 }
 
 #info {
-  font-size: 25px;
+  font-size: 20px;
   text-shadow: 
     0 0 5px #2AADFF,
     0 0 10px #2AADFF, 
