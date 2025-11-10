@@ -44,7 +44,6 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
-  text-align: center;
   width: 15rem;
   height: auto;
   border: 2px solid #2AADFF;
@@ -117,6 +116,12 @@ hr {
   background-color: #2AADFF;
   width: 50%;
   margin: 20px auto;
+}
+
+#iconsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon {
