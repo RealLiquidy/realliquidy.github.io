@@ -114,8 +114,7 @@ h1 {
 hr {
   border: 2px solid #2AADFF;
   border-radius: 10px;
-  height: 0px;
-  background-color: transparent;=
+  background-color: transparent;
   width: 50%;
   margin: 20px auto;
 }
