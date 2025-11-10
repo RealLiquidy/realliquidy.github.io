@@ -43,6 +43,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding-bottom: 10px;
   width: 15rem;
   height: auto;
@@ -119,7 +120,7 @@ hr {
 }
 
 #info {
-  display: block;
+  color: black;
 }
 
 #iconsWrapper {
