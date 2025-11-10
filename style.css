@@ -112,11 +112,16 @@ h1 {
 }
 
 hr {
-  border: 2px solid #2AADFF;
+  border: none;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: #2AADFF;
   width: 50%;
   margin: 20px auto;
+  box-shadow:
+    0 0 12px #2AADFF,
+    0 0 30px #49CFFF,
+    0 0 50px #1E72A7;
+  
 }
 
 #info {
